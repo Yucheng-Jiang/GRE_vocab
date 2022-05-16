@@ -2,7 +2,28 @@
 
 A python script to generate vocabulary learning schedule using Ebbinghaus learning curve. Current vocab sets includes `GRE佛脚`, `GRE等价词汇`, `镇考3000`, and `镇考机经词汇`.
 
+## Usage
+Simply call `python schedule_generator.py` to create your study schedule. Sample input and output as follows,
+```
+python schedule_generator.py 
+已读取单词书:
+        (1) GRE佛脚
+        (2) GRE等价词汇
+        (3) 镇考3000
+        (4) 镇考机经词汇
+请选择单词书编号(逗号分割编号)： 1,3,4
 
+已选择单词书： GRE佛脚 镇考3000 镇考机经词汇 
+
+------------------计划数据生成------------------
+请输入每日新增单词数量(1 ~ 4594)： 200
+请输入开始日期（YYYY-mm-dd): 2022-05-16
+
+从 2022-05-16 开始至 2022-06-27 结束，一共 43 天完成，单日最大复习词汇量 1400 
+确认[y] / n ? y
+---------------------------------------------
+背单词计划以生成至路径./每日任务
+```
 
 ## Schema
 
