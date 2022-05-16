@@ -2,6 +2,8 @@
 
 A python script to generate vocabulary learning schedule using Ebbinghaus learning curve. Current vocab sets includes `GRE佛脚`, `GRE等价词汇`, `镇考3000`, and `镇考机经词汇`.
 
+A sample study set, chosen `GRE佛脚`, `镇考3000`, and `镇考机经词汇` with 200 new words / day can found at [here](https://quizlet.com/Yucheng_Jiang6/folders/summer-2022-gre-vocab).
+
 ## Usage
 Simply call `python schedule_generator.py` to create your study schedule. Sample input and output as follows,
 ```
